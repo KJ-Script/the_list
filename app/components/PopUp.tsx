@@ -5,8 +5,7 @@ import ListGenerator from "./ListGenerator";
 
 type Props = {};
 const PopUp = (props: Props) => {
-  const [active, setActive] = useState<boolean>(false);
-  console.log(active);
+  const [active, setActive] = useState<Boolean>(false);
   return (
     <>
       {active ? (
