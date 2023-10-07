@@ -2,7 +2,7 @@ import React from 'react'
 
 type Props = {}
 
-const page = (props: Props) => {
+const FaqPage = (props: Props) => {
   return (
     <div className="w-full text-center">
     fas Page
@@ -10,4 +10,4 @@ const page = (props: Props) => {
   )
 }
 
-export default page
+export default FaqPage
