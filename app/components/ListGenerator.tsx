@@ -2,7 +2,7 @@
 import React, {SetStateAction, Dispatch} from "react";
 
 type Props = {
-    setActive: (active: boolean) => void
+    setActive: Dispatch<SetStateAction<boolean>>
 }
 
 const ListGenerator = ({setActive}: Props) => {
