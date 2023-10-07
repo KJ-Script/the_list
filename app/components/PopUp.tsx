@@ -1,6 +1,5 @@
 "use client";
-import React, { useState, SetStateAction, Dispatch } from "react";
-import PopUpBox from "./PopUpBox";
+import React, {useState} from "react";
 import ListGenerator from "./ListGenerator";
 
 type Props = {};
